@@ -6,7 +6,7 @@ const got = require("got");
 const stripe = require(
     "stripe"
 )(
-    "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"
+    
 );
 
 const serviceAccount = require("./serviceAccountKey.json");
